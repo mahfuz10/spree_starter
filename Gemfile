@@ -4,8 +4,13 @@ ruby '3.0.3'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.1.4'
+
 # Use postgresql as the database for Active Record
-gem 'pg'
+# gem 'pg'
+
+gem 'mysql2'
+
+
 # Use SCSS for stylesheets
 gem 'sass-rails'
 # Use Uglifier as compressor for JavaScript assets
@@ -47,6 +52,12 @@ group :development do
   gem 'web-console', '~> 4.0'
 
   gem 'letter_opener'
+
+  gem 'capistrano'
+  gem 'capistrano-rails'
+  gem 'capistrano-passenger'
+  gem 'capistrano-bundler'
+  gem 'capistrano-rvm'
 end
 
 group :test do
