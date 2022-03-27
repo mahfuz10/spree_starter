@@ -1,5 +1,5 @@
 # config valid for current version and patch releases of Capistrano
-lock "~> 3.12.1"
+lock "~> 3.17.0"
 
 set :application, "spree_starter"
 set :repo_url, "git@github.com:mahfuz10/spree_starter.git"
