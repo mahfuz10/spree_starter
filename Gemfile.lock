@@ -243,8 +243,6 @@ GEM
     fiber-local (1.0.0)
     flamegraph (0.9.5)
     flatpickr (4.6.6.0)
-    font_assets (0.1.14)
-      rack
     friendly_id (5.4.2)
       activerecord (>= 4.0.0)
     gem-release (2.2.2)
@@ -701,7 +699,6 @@ DEPENDENCIES
   dalli
   dotenv-rails (~> 2.1, >= 2.1.1)
   flamegraph
-  font_assets
   letter_opener
   listen
   memory_profiler

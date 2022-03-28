@@ -67,7 +67,7 @@ end
 # Heroku fix
 group :production do
   gem 'rack-timeout'
-  gem 'font_assets'
+  # gem 'font_assets'
 end
 
 # file uploades & assets
