@@ -147,7 +147,7 @@ Rails.application.configure do
   end
 
   # fix for fonts CORS issues with CloudFront
-  config.font_assets.origin = '*'
+  # config.font_assets.origin = '*'
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
 
