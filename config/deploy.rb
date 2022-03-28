@@ -12,7 +12,7 @@ set :branch, 'deploy'
 # Default deploy_to directory is /var/www/my_app_name
 # set :deploy_to, "/var/www/my_app_name"
 
-append :linked_files, "config/database.yml"
+append :linked_files, "config/database.yml", "config/master.key"
 append :linked_dirs, "log", "tmp/pids", "tmp/cache", "tmp/sockets", "public/system"
 
 # Default value for :format is :airbrussh.
